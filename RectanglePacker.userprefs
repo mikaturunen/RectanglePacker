@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="Test/Test.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RectanglePacker/RectanglePacker.cs">
+    <Files>
+      <File FileName="RectanglePacker/RectanglePacker.cs" Line="21" Column="14" />
+      <File FileName="Test/Program.cs" Line="98" Column="73" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectanglePacker", "RectanglePacker\RectanglePacker.csproj", "{536FDA91-601B-46F0-99F0-6CAADC77A18B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0A3CD22E-D13C-4231-880E-0D492DFFEAAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A3CD22E-D13C-4231-880E-0D492DFFEAAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A3CD22E-D13C-4231-880E-0D492DFFEAAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A3CD22E-D13C-4231-880E-0D492DFFEAAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A3CD22E-D13C-4231-880E-0D492DFFEAAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536FDA91-601B-46F0-99F0-6CAADC77A18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536FDA91-601B-46F0-99F0-6CAADC77A18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536FDA91-601B-46F0-99F0-6CAADC77A18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536FDA91-601B-46F0-99F0-6CAADC77A18B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
