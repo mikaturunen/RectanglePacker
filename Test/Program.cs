@@ -34,13 +34,13 @@ namespace Test
             //Create a list of random rectangles, sorted by size
             var rand = new Random();
             var rects = new List<Rect>();
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 50; ++i)
                 rects.Add(new Rect(0, 0, rand.Next(2, 10), rand.Next(2, 10)));
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 50; ++i)
                 rects.Add(new Rect(0, 0, rand.Next(7, 10), rand.Next(1, 4)));
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 50; ++i)
                 rects.Add(new Rect(0, 0, rand.Next(1, 4), rand.Next(7, 10)));
-            for (int i = 0; i < 100; ++i)
+            for (int i = 0; i < 50; ++i)
                 rects.Add(new Rect(0, 0, rand.Next(1, 4), rand.Next(1, 4)));
 
             rects.Sort((a, b) => b.Area.CompareTo(a.Area));
@@ -82,6 +82,7 @@ namespace Test
             using (var writer = new StreamWriter("results.txt"))
             {
                 int percent = (int)(((float)usedArea / totalArea) * 100f);
+                writer.WriteLine("Packed: " + rects.Count + " rectangles");
                 writer.WriteLine("Size: " + packer.Width + " x " + packer.Height);
                 writer.WriteLine("Usage: " + usedArea + " / " + totalArea + " (" + percent + "%)");
                 writer.WriteLine("Pack Time: " + packTime + " ms");
